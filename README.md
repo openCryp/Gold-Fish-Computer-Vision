@@ -1,10 +1,11 @@
-# PYNQ - Computer Vision
+# Gold Fish - Computer Vision
 
 All PYNQ releases ship with the popular [OpenCV](https://opencv.org/) library pre-installed. The PYNQ computer vision overlays enable accelerating OpenCV components in Programmable Logic (PL). These overlays expose a subset Xilinx' [xfOpenCV](https://github.com/Xilinx/xfopencv) library (a part of Xilinx' [reVISION solution](https://www.xilinx.com/products/design-tools/embedded-vision-zone.html)) at the Python level, combined with the support for HDMI input/output (Pynq-Z1 and Pynq-Z2 only). Webcam, stream or file based input/output remains available through the pre-installed SW OpenCV (on all Pynq boards).
 
 Currently this package is compatible with [PYNQ image v2.4](http://www.pynq.io/board).
 
 ![](./block_diagram.png)
+![](./goldfish.png)
 
 A number of prebuilt overlays are available for your PYNQ-enabled board. For example:
   + Pynq-Z1/ Pynq-Z2:
